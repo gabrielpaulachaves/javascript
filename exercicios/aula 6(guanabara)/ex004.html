@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <form action="#">
+        <label for="ipais">Qual Desses países você mora?</label>
+        <select name="" id="pais">
+            <option value="eua" >EUA</option>
+            <option value="br" >BR</option>
+            <option value="arg" >ARG</option>
+            <option value="india" >india</option>
+        </select>
+        <input type="button" value="buscar" onclick="validar()">
+        <div id="res">
+
+        </div>
+
+        <script>
+            function validar(){
+                var pais = document.getElementById('pais')
+                var res = document.getElementById('res')
+                 var local = pais.value;
+                if (local === "eua") {
+                res.innerHTML = 'Você é estadunidense';
+            } else if (local === "br") {
+                res.innerHTML = 'Você é bostileiro, toma seus benefícios';
+            } else if (local === "arg") {
+                res.innerHTML = 'Você é argentino';
+            } else if (local === "india") {
+                res.innerHTML = 'Você é porco pra caralho';
+            } else {
+                res.innerHTML = 'País não identificado';
+            }
+            }
+        </script>
+
+    </form>
+</body>
+</html>
