@@ -1,7 +1,7 @@
 var pais = 'EUA'
 
 if(pais == 'Brasil'){
-    console.log('Bostileiro')
+    console.log('Brasileiro')
 }else{
     console.log('estrangeiro')
 }
