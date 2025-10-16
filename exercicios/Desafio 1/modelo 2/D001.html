@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do dia</title>
+    <title>Verificador de idade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,10 +12,21 @@
     </header>
     <section>
         <div>
-            <p>Agora são</p>
+            <label for="nascimento">Seu ano de nascimento: </label>
+            <input type="number" name="txtano" id="iano">
+            <p>Sexo
+            <input type="radio" name="radsex" id="masc">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
         </div>
-        <div>
-            <p>TESTADO</p>
+        <div id="res">
+           <p>Preencha os dados acima para ver o resultado</p>
+           <p id="spoiler">..</p>
         </div>
     </section>
     <footer>
