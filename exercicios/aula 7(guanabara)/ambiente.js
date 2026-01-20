@@ -20,4 +20,21 @@ do{
 }while(pizza > 0)
 if(pizza == 0){
     console.log("As fatias acabaram!")
-}    
+}
+
+/*do-while executa o bloco e depois verifica a condição, garantindo pelo menos uma execução, já o while ele verifica a condição primeiro antes de executar o bloco */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
