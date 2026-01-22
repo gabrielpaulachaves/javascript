@@ -33,3 +33,24 @@ color: white;
 text-align: center;
 padding: 10px;
 }
+input{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+label{
+    margin-left: 10px;
+    font-size: 20px;
+}
+#bTntabela{
+    font-size: 20px;
+    cursor: pointer;
+}
+#pronumero{
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+select{
+    margin: 10px;
+}
