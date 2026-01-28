@@ -14,7 +14,7 @@ console.log(soma(n1))
 
 let n1 = soma(3, 6)  /*Ou qualquer outro valor, tipo (9, 20) */
 
-function soma(a, b){
+function soma(a=0, b=0){/*colocando =0, a gente evita o problema "NaN", que ocorre quando nao colocamos um valor em uma das variaveis*/
     return a + b
 }
 
