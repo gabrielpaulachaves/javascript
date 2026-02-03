@@ -6,7 +6,7 @@ for(var c=0;c<=4;c++){
     console.log(auto[c])
 }
 if(c==5){
-    auto.push(12)
+    auto.push(12)  /*Adiciona mais um valor a array */
     console.log(auto)
 }
 
@@ -20,9 +20,14 @@ console.log(`O sexto valor do vetor é ${auto[5]}`)
 
 for(c=0;c<auto.length;c++){    /*pensando no indice */
     console.log(`A posição ${c} tem o valor ${auto[c]}`)    /*pensando no elemento */
-}
-for(c in auto){  /*FOR = para cada posição IN = na: para cada posição dentro do vetor:  */
+}  
+for(c in auto){  /*FOR = para cada indice IN = na: para cada posição dentro do vetor: 
+    o for in percorre os indices, enquanto o for of percorre os valores
+    */
     console.log(`Usando for e in: ${auto[c]}`)
+}
+for(c of auto){
+    console.log(`usando for e of: ${c}`)/*Não precisamos colocar o auto[c] que é usado para acessar o valor do índice, pois o for of já faz o trabalho de evitar que a gente precise acessar os valores pelos índices */
 }
 
 /*Buscando valores dentro de arrays */
