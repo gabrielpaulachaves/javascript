@@ -23,6 +23,8 @@ function vida(n){
 const jogador1 = vida("jogador 1")
 const jogador2 = vida("jogador 2")
 
+/*É guardado a função interna na variavel */
+
 /*Executa → atualiza hp
 Mas você não vê o valor retornado. */
 jogador1()
@@ -33,6 +35,6 @@ console.log(jogador1())
 
 
 /*Resumo final da closure, quando criamos const jogador1 = vida("jogador 1"), a função vida() executa e cria um ambiente. Normalmente, quando a função termina, esse ambiente é apagado, porém, a função interna ainda está ali utilizando deste ambiente(utilizando as variaveis desse ambiente), então ele não pode ser apagado. O ambiente não é descartado  */
-
+/*O ambiente é criado quando a função externa é criada, mas permanece quando alguem ainda lembra da função interna */
 
 
