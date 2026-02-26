@@ -11,7 +11,7 @@ function Perso(nome, arma, elemento, regiao, ult){
 
 const perso1 = new Perso("Ayaka", "Espada", "Cryo", "Inazuma", "spin de gelo");
 
-perso1.ultmate()
+console.log(perso1.ultmate())
 
 
 
