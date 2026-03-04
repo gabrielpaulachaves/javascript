@@ -20,5 +20,3 @@ console.log(perso1.ultmate())
 
 
 
-
-
