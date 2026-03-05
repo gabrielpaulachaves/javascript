@@ -14,7 +14,6 @@ noc.prototype.rotina = function (){
 noc.prototype.horario = function(){
     return 
 
-
 }
 
 const noc1 = new noc('Neilson', 'manhã', 'sênior')
@@ -28,7 +27,30 @@ const noc2 = new noc('Amanda','manhã','junior')
 /*quando o objeto nao é função, ele nao tem prototype */
 
 function loja(produto, valor, quantidade){
-
+    this.produto = produto,
+    this.valor = valor,
+    this.quantidade = quantidade
 }
+
+loja.prototype.adicionar = function(amount){
+    this.quantidade += amount
+    console.log(`Há ${this.quantidade} ${this.produto} em estoque`)
+}
+
+const produto1 = new loja('Ryzen 5 5600GT', 759, 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
