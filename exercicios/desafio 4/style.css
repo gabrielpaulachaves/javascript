@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
+#pai{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+#resultado{
+    width: 700px;
+    height: 50px;
+    background-color: green;
+    margin: auto;
+}
+.hora{
+    margin: 10px;
+    width: 100px;
+}
+button:hover{
+    cursor: pointer;
+}
