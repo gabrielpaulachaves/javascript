@@ -40,7 +40,7 @@ SE a cor atual (a posição onde estamos) é verdadeira(ou seja, se já existe u
 /*Ele irá passar por cada objeto e verificar a cor */
 }, {})
 /*usando {} a gente começa com objeto, pois nesse array tem objetos, nao numeros como o exemplo anterior */
-/*o contador é o objeto parcial, ou seja, o inicial definido lá embaixo pelo {}, o [] é uma forma de acessar a propriedade desse objeto que estamos, correto? e o atual é o valor atual daquela array que estamos Entao se ja estamos no segundo objeto, o contador é objeto anterior ainda e o atual é o objeto atual nessa fase, sendo o segundo */
+/*o contador é o objeto parcial, ou seja, o inicial definido lá embaixo pelo {}, o [] é uma forma de acessar a propriedade desse objeto que estamos, e o atual é o valor atual daquela array que estamos Entao se ja estamos no segundo objeto, o contador é objeto anterior ainda e o atual é o objeto atual nessa fase, sendo o segundo */
 console.log(numcorprod)
 
 let palavra = ['olá',', ','mundo!']
