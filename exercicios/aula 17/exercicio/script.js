@@ -11,7 +11,7 @@ botao.addEventListener('click', function juntar(){
         resultado.innerHTML = 'Adicione nome em ambos os campos'
     }else{
     resultado.innerHTML = `Parabéns! você descobriu seu nome: ${juntado}`
-     }
+     }|
 });
 
 
