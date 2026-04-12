@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.caixa{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+}
+#caixa5{
+    font-weight: bolder;
+}
