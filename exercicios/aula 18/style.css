@@ -8,3 +8,8 @@
 #caixa5{
     font-weight: bolder;
 }
+#frutas{
+    border: 2px solid black;
+    width: 100px;
+    font-size: 20px;
+}
