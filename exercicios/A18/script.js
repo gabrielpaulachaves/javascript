@@ -9,6 +9,7 @@ const novadiv = document.createElement("div")
 novadiv.textContent = "caixa surpresa"
 //agora iremos colocar um id nele
 novadiv.id = "caixa5"
+
 //mudando a cor
 novadiv.style.color = "red"
 //agora caracteristicas do texto (da pra mudar praticamente tudo)
@@ -37,6 +38,19 @@ document.getElementById("caixa1").prepend(novadiv)
 
 //removendo o elemento (usando o remove a gente remove o elemento todo, usando removechild a gente remove um filho dele)
 
-document.getElementById("caixa1").removeChild(novadiv)
+//document.getElementById("caixa1").removeChild(novadiv)
 
-//9:43
+////////////////////////////////////////////////////
+
+const novafruta = document.createElement('li')
+
+novafruta.textContent = "banana"
+novafruta.id = "banana"
+//caso cada fruta nao tenha id            //primeiro o id da ol, e depois cada elemento filho
+const frutas = document.querySelectorAll("#frutas li")
+
+document.getElementById("frutas").insertBefore(novafruta, frutas[1])
+//document.getElementById("frutas").insertBefore(novafruta, document.getElementById("laranja"))
+
+
+
