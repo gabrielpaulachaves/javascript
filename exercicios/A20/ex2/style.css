@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.botoes{
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.ativo{
+    background-color: blue;   
+}
+.desativado{
+    background-color: red;
+}
+.hover{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#h1{
+    font-size: 44px
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#botao{
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.ativo{
+    background-color: blue;   
+}
+.desativado{
+    background-color: red;
+}
+#h1{
+    font-size: 44px
+}
