@@ -1,0 +1,18 @@
+[{
+    "nome":"Eren",
+    "sobrenome":"Yeager",
+    "idade": 19,
+    "IsTitan": true
+},
+{
+    "nome": "Mikasa",
+    "sobrenome": "Ackerman",
+    "idade": 19,
+    "IsTitan": false
+},
+{
+   "nome": "Armin",
+    "sobrenome": "Alert",
+    "idade": 19,
+    "IsTitan": true 
+}]

@@ -1,0 +1,8 @@
+{
+    "nome":"Eren",
+    "sobrenome":"Yeager",
+    "idade": 19,
+    "IsTitan": true,
+    "titan": "Titan de ataque",
+    "guardados-no-bolso":["Reiner", "Annie", "Bertold", "familia tybur", "Marley inteira"]
+}
