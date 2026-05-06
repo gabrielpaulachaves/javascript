@@ -84,6 +84,8 @@ function lixo(){
             //o then retorna o resultado daquela promise. a promise comeca como pendente, e retorna como resolvido ou rejeitado depois do tempo adicionado
             //se o codigo foi rejeitado, use .catch
             //se esse erro foi em uma promise que ainda tem outras promises pra vir, o resto das promises nao serao executadas
+
+            //esse parametro value(podendo ser outros nomes) é o valor resolvido da promise
 cachorro().then(value => {console.log(value); return cozinha()})
           .then(value => {console.log(value); return lixo()})
           .then(value => {console.log(value)})
